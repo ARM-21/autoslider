@@ -1,0 +1,124 @@
+html body{
+    padding:0px;
+    margin:0px;
+    height:100vh;
+    width:100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(53, 41, 25, 0.758);
+}
+.cart ,.image {
+    height:250px;
+    width:500px;
+    background-color: antiquewhite;
+    /* background: url('./images/1.png'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius:12px;
+    box-shadow: 4px 4px 4px 4px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+border:2px solid yellowgreen
+
+}
+
+.btn{
+    color:white;
+    background-color:rgb(118, 118, 18);
+    border-radius: 12px;
+    height:20px;
+    width:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    /* position: absolute; */
+}
+.btn:hover{
+    background-color: aqua;
+    color: blanchedalmond;
+}
+
+@media only screen and (max-width:548px) {
+
+    .image{width:100%;}
+.cart{
+    width:90%;
+    /* height:250px;
+    width:500px; */
+    background-color: antiquewhite;
+    /* background: url('./images/1.png'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius:12px;
+    box-shadow: 4px 4px 4px 4px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+border:2px solid yellowgreen
+}
+
+.left {
+
+    position:absolute;
+    left:5px;
+
+}
+.right {
+    position: absolute;
+    right:1px;
+}
+    
+}
+
+.left {
+
+    position:absolute;
+    left:5px;
+
+}
+.right {
+    position: absolute;
+    right:1px;
+}
+
+/* @media only screen and(max-width:405px) {
+    .cart{
+        width:80%;
+      
+        background-color: antiquewhite;
+
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius:12px;
+        box-shadow: 4px 4px 4px 4px;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: space-between;
+    border:2px solid yellowgreen
+    }
+    
+    .left {
+    
+        position:absolute;
+        left:5px;
+    
+    }
+    .right {
+        position: absolute;
+        right:0px;
+    }
+        
+    } */
